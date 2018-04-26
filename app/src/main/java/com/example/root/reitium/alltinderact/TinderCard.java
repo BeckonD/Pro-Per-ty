@@ -128,6 +128,11 @@ public class TinderCard {
 
         linearFirst.setAlpha((float) 0.7);
 //        viewone.setBackgroundColor(Color.rgb(255,255,255));
+
+
+
+
+
         Glide.with(mContext).load(mProfile.getImageUrl()).apply(RequestOptions.diskCacheStrategyOf(DiskCacheStrategy.ALL)).into(profileImageView);
 
         profileImageView.setOnClickListener(new android.view.View.OnClickListener() {

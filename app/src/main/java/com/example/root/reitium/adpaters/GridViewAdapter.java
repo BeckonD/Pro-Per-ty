@@ -1,4 +1,4 @@
-package com.example.root.reitium.activites.adpaters;
+package com.example.root.reitium.adpaters;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -14,7 +14,6 @@ import com.example.root.reitium.R;
 import com.example.root.reitium.modles.CardItem;
 
 import java.util.ArrayList;
-import java.util.zip.Inflater;
 
 /**
  * Created by root on 23/4/18.

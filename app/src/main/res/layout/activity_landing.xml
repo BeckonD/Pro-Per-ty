@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:background="#000"
         android:orientation="vertical"
-        tools:context="com.example.root.reitium.activites.adpaters.LandingAct">
+        tools:context="com.example.root.reitium.activites.LandingAct">
 
         <android.support.design.widget.AppBarLayout
             android:layout_weight="0.4"

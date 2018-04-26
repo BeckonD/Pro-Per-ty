@@ -37,8 +37,8 @@
         <activity android:name=".alltinderact.TinderCard" />
         <activity android:name=".alltinderact.TinderActivity" />
         <activity android:name=".alltinderact.LandingAct" />
-        <activity android:name=".activites.adpaters.LandingAct" />
-        <activity android:name=".activites.adpaters.AddPayment" />
+        <activity android:name=".activites.LandingAct" />
+        <activity android:name=".adpaters.AddPayment" />
         <activity android:name=".activites.GlobelInvest" />
         <activity android:name=".activites.InforMation" />
         <activity android:name=".activites.Fav"></activity>

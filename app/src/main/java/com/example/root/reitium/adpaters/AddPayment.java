@@ -1,4 +1,4 @@
-package com.example.root.reitium.activites.adpaters;
+package com.example.root.reitium.adpaters;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

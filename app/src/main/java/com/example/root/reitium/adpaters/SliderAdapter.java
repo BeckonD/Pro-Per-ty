@@ -1,6 +1,5 @@
-package com.example.root.reitium.activites.adpaters;
+package com.example.root.reitium.adpaters;
 
-import android.bluetooth.BluetoothProfile;
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;

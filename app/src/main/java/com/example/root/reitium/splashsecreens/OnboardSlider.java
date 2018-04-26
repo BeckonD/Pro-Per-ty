@@ -1,36 +1,21 @@
 package com.example.root.reitium.splashsecreens;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
-import android.graphics.Matrix;
-import android.graphics.Point;
-import android.graphics.PointF;
 import android.os.Handler;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatDelegate;
-import android.view.Display;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.root.reitium.R;
-import com.example.root.reitium.activites.adpaters.LandingAct;
-import com.example.root.reitium.activites.adpaters.SliderAdapter;
-import com.example.root.reitium.alltinderact.TinderActivity;
+import com.example.root.reitium.activites.LandingAct;
+import com.example.root.reitium.adpaters.SliderAdapter;
 
 import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
-
-import me.relex.circleindicator.CircleIndicator;
 
 public class OnboardSlider extends AppCompatActivity {
 

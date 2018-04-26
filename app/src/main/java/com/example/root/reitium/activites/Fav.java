@@ -9,7 +9,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.root.reitium.R;
-import com.example.root.reitium.activites.adpaters.LandingAct;
 
 public class Fav extends AppCompatActivity {
 

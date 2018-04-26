@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">Reitium</string>
 
-    <string name="percenText"><font color="#97ce31" size="25dp">43.6%</font>\n<font>All Time</font> </string>
 </resources>
