@@ -49,8 +49,8 @@ public class LandingAct extends AppCompatActivity {
         txtReinvest=(TextView)findViewById(R.id.txtReinvest);
         txtAnal=(TextView)findViewById(R.id.txtAnal);
 
-LetterSpacingTextView txt=new LetterSpacingTextView(getApplicationContext());
-txt.setLetterSpacing(10);
+//LetterSpacingTextView txt=new LetterSpacingTextView(getApplicationContext());
+//txt.setLetterSpacing(10);
 
         txtPor=(TextView)findViewById(R.id.txtPor);
         txtWallet=(TextView)findViewById(R.id.txtWallet);
