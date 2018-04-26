@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toolbar;
 
 import com.example.root.reitium.R;
+import com.example.root.reitium.activites.Fav;
 import com.example.root.reitium.activites.GlobelInvest;
 import com.example.root.reitium.activites.InforMation;
 import com.example.root.reitium.activites.LetterSpacingTextView;
@@ -31,6 +32,7 @@ public class LandingAct extends AppCompatActivity {
     private TabLayout tabLayout;
     private TextView txtPor,txtWallet,txtHome,txtMarket,txtPortf,txtLoadwallet,txtWithdraw,txtReinvest,txtAnal;
     private LinearLayout linerLeft;
+    private LinearLayout linearRight;
     private TextView txtSubBalanceSecond,txtSubBalance,txtPortBalance,txtMainBalance,txtPercentage,txtAllTime,txtInial,txtTimeProfit;
     CardView cardClick;
     Typeface typeface,typefaceCard,typefaceBottom,typefaceContent,typePercentage;
@@ -119,6 +121,18 @@ public class LandingAct extends AppCompatActivity {
 //        ((TextView)findViewById(R.id.subscript)).setText(Html.fromHtml("<sup>$</sup>"));
 //        ((TextView)findViewById(R.id.txtSubfirst)).setText(Html.fromHtml("<sup>$</sup>"));
 //        ((TextView)findViewById(R.id.txtSubS)).setText(Html.fromHtml("<sup>$</sup>"));
+
+
+        linearRight=(LinearLayout)findViewById(R.id.linearRight);
+        linearRight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LandingAct.this, Fav.class));
+                overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
+            }
+        });
+
+
 
         linerLeft=(LinearLayout)findViewById(R.id.linerLeft);
         linerLeft.setOnClickListener(new View.OnClickListener() {
