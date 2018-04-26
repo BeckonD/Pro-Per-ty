@@ -51,9 +51,6 @@ public class LandingAct extends AppCompatActivity {
         txtPor=(TextView)findViewById(R.id.txtPor);
         txtWallet=(TextView)findViewById(R.id.txtWallet);
 
-
-
-
         txtPortBalance=(TextView)findViewById(R.id.txtPortBalance);
         txtMainBalance=(TextView)findViewById(R.id.txtMainBalance);
         txtPercentage=(TextView)findViewById(R.id.txtPercentage);
@@ -93,17 +90,6 @@ public class LandingAct extends AppCompatActivity {
 
         typePercentage=Typeface.createFromAsset(assetManager,"font/Montserrat-Thin.otf");
         txtPercentage.setTypeface(typefaceContent);
-
-
-
-
-
-
-
-
-
-
-
 
         toolbar=(android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
